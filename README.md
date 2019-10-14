@@ -17,7 +17,7 @@ Topics:
 * cd into the repository and run `yarn install`
 * run `yarn start`
 
-### Steps for implementing React Router
+### Steps for implementing React Router - Complete
 
 * You'll notice we've already installed react-router-dom for you.
 * `import` your BrowserRouter as Router inside your `index.js` file.
@@ -25,7 +25,7 @@ Topics:
 * open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
 * inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
 
-### Steps for "Declaring" your routes
+### Steps for "Declaring" your routes - Complete
 
 * Inside of your `App.js` file `import { Route } from 'react-router-dom';`
 * This is where we're going to declare and specify our router.
